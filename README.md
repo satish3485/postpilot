@@ -66,37 +66,6 @@ Meta and TikTok apps may require provider review for production traffic; see the
 
 ---
 
-## Plans
-
-| Plan | Price | Posts / month* | History & files |
-|------|-------|----------------|-----------------|
-| **Free** | €0 | 30 | 7 days |
-| **Pro** | €9.99 / month | 200 | 90 days |
-
-\*Each **destination that publishes successfully** counts as **one post**. One upload to four platforms = up to four posts. Failed destinations do not use your quota. Drafts don’t count until you publish.
-
-Details and checkout: **[postpilot.leitbuilt.com/pricing](https://postpilot.leitbuilt.com/pricing)**
-
----
-
-## For developers & self-hosters
-
-This repository is the full **Next.js** application (PostgreSQL, Prisma, Docker, ffmpeg). The root **[README](../README.md)** covers:
-
-- Local development and Docker production
-- OAuth app setup (Google, Meta, TikTok, LinkedIn, X)
-- Deploy to Hetzner / GHCR, Caddy, backups
-
-If you run your own instance, set `NEXT_PUBLIC_APP_URL` to your domain and register redirect URLs with each provider.
-
-**Other docs in this folder**
-
-| Doc | Purpose |
-|-----|---------|
-| [FIRST-DEPLOY-HETZNER.md](./FIRST-DEPLOY-HETZNER.md) | First-time VPS deploy checklist |
-
----
-
 ## Built with
 
 Next.js · React · PostgreSQL · Prisma · Stripe · ffmpeg · Docker
